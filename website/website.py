@@ -14,8 +14,8 @@ st.set_page_config(layout='wide')
 
 # folderimg = os.getcwd() + '\\CO_NG_images'
 # folderimg2 = os.getcwd() + '\\dpr images'
-folderimg = os.path.abspath(os.path.join(os.getcwd(), "..")) + '\\CO_NG_images'
-folderimg2 = os.path.abspath(os.path.join(os.getcwd(), "..")) + '\\dpr images'
+folderimg = r'CO_NG_images'
+folderimg2 = r'dpr images'
 
 # get data
 @st.cache_data
