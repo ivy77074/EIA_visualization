@@ -381,7 +381,7 @@ with mainTab1:
     with col2:
         # add image
         if option:
-            st.image(folderimg + '\\' + option + '.jpg')
+            st.image(folderimg + '/' + option + '.jpg')
 
     tab1, tab2 = st.tabs(["Crude Oil", "Natural Gas"])
     with tab1:
@@ -493,7 +493,7 @@ with mainTab2:
     with col5:
         # add image
         if option:
-            st.image(folderimg2 + '\\' + option1 + '.jpg')
+            st.image(folderimg2 + '/' + option1 + '.jpg')
     
     tab3, tab4 = st.tabs(["Activity", "DUC"])
 
