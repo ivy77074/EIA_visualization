@@ -21,7 +21,7 @@ folderimg2 = r'./dpr images'
 @st.cache_data
 def refreshData():
     imagePaths = []
-    for file in glob.glob('CO_NG_images\\*.jpg'):
+    for file in glob.glob(r'./CO_NG_images\\*.jpg'):
         imagePaths.append(file)
     
     #### get interactive graph data for crude and gas
@@ -164,7 +164,7 @@ def refreshData():
     #### get dpr data
     # get dpr images' paths
     imagePaths2 = []
-    for file in glob.glob('dpr images/*.jpg'):
+    for file in glob.glob(r'./dpr images/*.jpg'):
         imagePaths2.append(file)
     
     # true rounding
