@@ -23,7 +23,7 @@ def refreshData():
     imagePaths = []
     for file in glob.glob('./CO_NG_images/*.jpg'):
         imagePaths.append(file)
-    
+    imagePaths.sort(key=lambda x:x[-11:-4])
     #### get interactive graph data for crude and gas
     # register an EIA API token then past it here
     EIA_TOKEN = 'RntNbLbGg7j09oSsnvyUaY7fIEV0UlyNNiAaVPzh'
@@ -166,7 +166,7 @@ def refreshData():
     imagePaths2 = []
     for file in glob.glob('./dpr images/*.jpg'):
         imagePaths2.append(file)
-    
+    imagePaths2.sort(key=lambda x:x[-11:-4])
     # true rounding
     def rounding(num, n=0):
         num = float(num)
