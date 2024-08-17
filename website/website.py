@@ -4,7 +4,6 @@ import plotly.express as pex
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from myeia.api import API
-import psycopg2
 from datetime import date
 from datetime import timedelta
 import glob, os
