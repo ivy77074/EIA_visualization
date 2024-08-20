@@ -1,5 +1,5 @@
 # Energy Information Administration (EIA) Production Visualization
-An EIA production visualization app by coding with Streamlit in Python. It shows images and interactive graphs about the information on "crude oil and natural gas production from shale and tight formations" and parts of "drilling productivity metrics". 
+An EIA production visualization app by coding with Streamlit in Python. It shows basin map images and interactive graphs about the information on "crude oil and natural gas production from shale and tight formations" and parts of "drilling productivity metrics". 
 
 # Each Folder
 This section will introduce each folder's functions.
