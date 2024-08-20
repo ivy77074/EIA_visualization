@@ -18,3 +18,6 @@ website.py file is the main file that structures the app. The main.py file is fo
 
 # Website Link
 https://eia-visualization.streamlit.app/
+
+# Notice
+Since images in the app were generated and stored locally, the information may not match new data if we do not update it.
