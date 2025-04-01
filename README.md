@@ -21,3 +21,6 @@ https://eia-visualization.streamlit.app/
 
 # Notice
 Since images in the app were generated and stored locally, the information may not match new data if we do not update it.
+
+# Contributors
+Yuxuan Qian, Yijia Pan
